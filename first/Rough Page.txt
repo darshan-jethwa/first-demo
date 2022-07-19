@@ -1,0 +1,76 @@
+Microsoft Windows [Version 10.0.22000.613]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Darshan H Jethwa>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Darshan H Jethwa>e:
+
+E:\>cd firstdemo git
+The system cannot find the path specified. #error 
+
+E:\>cd first demo git
+
+E:\first demo git>git init
+Initialized empty Git repository in E:/first demo git/.git/
+
+E:\first demo git>git add .
+
+E:\first demo git>git branch -M main
+
+E:\first demo git>git remote add origin https://github.com/darshan-jethwa/first-demo.git
+
+E:\first demo git>git commit -m "My first Github commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Darshan H Jethwa@DESKTOP-ME1AU2I.(none)')
+
+E:\first demo git>
+
+E:\first demo git>git config --global user.email "darshanjethwa.ic@gmail.com"
+
+E:\first demo git>
+
+E:\first demo git> git config --global user.name "darshan-jethwa"
+
+E:\first demo git>git add .
+
+E:\first demo git>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/darshan-jethwa/first-demo.git'
+
+E:\first demo git>git config --global user.email "darshanjethwa.ic@gmail.com"
+
+E:\first demo git>git config --global user.name "darshan-jethwa"
+
+E:\first demo git>git commit -m "firt commit"
+[main (root-commit) 2218c60] firt commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 first/demo txt.txt
+
+E:\first demo git>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 259 bytes | 259.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/darshan-jethwa/first-demo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\first demo git>
+E:\first demo git>
+E:\first demo git>
+E:\first demo git>
+E:\first demo git>
+E:\first demo git>
